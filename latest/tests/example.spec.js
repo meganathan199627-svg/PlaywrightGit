@@ -21,3 +21,7 @@ test('get started link', async ({ page }) => {
 test ('Validate Amazon',async({page})=>{
   await page.goto('https://www.amazon.in')
 })
+
+test ('Validate Flipkart',async({page})=>{
+  await page.goto('https://www.flipkart.com/')
+})
